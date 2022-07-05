@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Header */
+
+.header {
+    background: #071533;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.image_container {
+    padding-left: 200px;
+}
+
+.image_container img {
+    width: 170px;
+}
+
+.header .menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #021742;
+}
+
+
+
+/* Nav bar */
+
+.navbar {
+    background: #021742;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 15px;
+}
+
+.navbar ul li:hover {
+    background: #0a2c6e;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Login */
+
+.login .login_section1 {
+    padding: 20px;
+}
+
+.login_section1 h2 {
+    font-size: 50px;
+}
+
+.login_section1 span a {
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.login .login_section2 {
+    padding: 50px;
+    display: flex;
+}
+
+.login_module_1 h3 {
+    font-size: 30px;
+}
+
+form {
+    padding: 10px;
+}
+
+.login_module_1 label {
+    margin-bottom: 10px;
+}
+
+.login_module_1 input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#Login {
+    background-color: #021742;
+    color: #fff;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.login_module_2 img {
+    width: 300px;
+}
+
+/* Home */
+
+.home {
+    display: flex;
+    padding: 50px;
+}
+
+.info {
+    padding-top: 150px;
+}
+
+.info h2 {
+    font-size: 50px;
+}
+
+.info h3 {
+    font-size: 35px;
+}
+
+.home-image-container img {
+    width: 400px;
+}
+
+
+
+/* Work items */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
